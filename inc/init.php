@@ -50,6 +50,6 @@ add_action('init', function () {
 
 function some_hook_function()
 {
-
+    wp_enqueue_style( 'bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css', array(), time(), 'all' );
 }
 add_action('admin_enqueue_scripts', 'some_hook_function');
