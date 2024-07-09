@@ -4,8 +4,8 @@ function func_callback_location($object)
 {
 ?>
     <div class="form-group">
-        <label for="exampleFormControlInput1">Email address</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        <label for="locationAddress">Location address</label>
+        <input type="text" name="locationAddress" class="form-control" id="locationAddress" placeholder="Hồ Chí Minh">
     </div>
 <?php
 }
