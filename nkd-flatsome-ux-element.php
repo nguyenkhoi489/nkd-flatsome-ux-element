@@ -43,10 +43,8 @@ function plugin_active_loader()
     add_action('after_setup_theme', function() {
         require_once __DIR__ . '/builder.php';
     });
-
-    require_once __DIR__ . '/inc/register.php';
+    require_once __DIR__ . '/inc/init.php';
     require_once __DIR__ . '/inc/meta-box.php';
 
-    
 }
 add_action('plugin_loaded','plugin_active_loader');
